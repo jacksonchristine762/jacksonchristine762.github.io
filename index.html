@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>岳阳道路救援_岳阳汽车拖车搭电补胎脱困_高速救援24小时_悟空道路救援 400-808-2010</title>
+<meta name="description" content="悟空道路救援覆盖岳阳楼区、云溪区、君山区、岳阳县、华容县、湘阴县、平江县、汨罗市、临湘市，提供岳阳汽车拖车、搭电、补胎换胎、脱困、开锁、送油及G0421许广高速、G56杭瑞高速岳阳段24小时道路救援。电话400-808-2010。">
+<meta name="keywords" content="岳阳道路救援,岳阳汽车拖车,岳阳汽车搭电,岳阳汽车补胎,岳阳汽车脱困,岳阳高速救援,岳阳汽车开锁,悟空道路救援">
+<link rel="canonical" href="https://jacksonchristine762.github.io">
+
+<!-- LocalBusiness 结构化数据：areaServed 精确到区县，url 用 https://jacksonchristine762.github.io 占位 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "@id": "https://jacksonchristine762.github.io#localbusiness",
+  "name": "悟空道路救援（岳阳）",
+  "url": "https://jacksonchristine762.github.io",
+  "telephone": "400-808-2010",
+  "description": "悟空道路救援，岳阳本地24小时汽车道路救援服务，覆盖岳阳楼区、云溪区、君山区、岳阳县、华容县、湘阴县、平江县、汨罗市、临湘市及岳阳境内G0421许广高速、G56杭瑞高速、G4京港澳高速岳阳段，提供拖车、搭电、补胎换胎、脱困、开锁、送油等救援。",
+  "areaServed": [
+    { "@type": "City", "name": "岳阳市" },
+    { "@type": "AdministrativeArea", "name": "岳阳楼区" },
+    { "@type": "AdministrativeArea", "name": "云溪区" },
+    { "@type": "AdministrativeArea", "name": "君山区" },
+    { "@type": "AdministrativeArea", "name": "岳阳县" },
+    { "@type": "AdministrativeArea", "name": "华容县" },
+    { "@type": "AdministrativeArea", "name": "湘阴县" },
+    { "@type": "AdministrativeArea", "name": "平江县" },
+    { "@type": "AdministrativeArea", "name": "汨罗市" },
+    { "@type": "AdministrativeArea", "name": "临湘市" },
+    { "@type": "AdministrativeArea", "name": "岳阳经济技术开发区" },
+    { "@type": "AdministrativeArea", "name": "南湖新区" },
+    { "@type": "AdministrativeArea", "name": "屈原管理区" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "岳阳市",
+    "addressRegion": "湖南省",
+    "addressCountry": "CN"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "¥200-¥800",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "岳阳道路救援服务",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳汽车拖车" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳汽车搭电" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳汽车补胎换胎" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳汽车脱困" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳汽车开锁" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "岳阳高速道路救援" } }
+    ]
+  }
+}
+</script>
+
+<style>
+/* 命名刻意分化：布局用 wk- 前缀，组件用特定语义词，避免模板化统一感 */
+:root{
+  --ink:#1a1f2b;
+  --steel:#2c3543;
+  --amber:#e07b1a;
+  --amber-deep:#b85f0a;
+  --paper:#f5f2ec;
+  --line:rgba(0,0,0,.08);
+  --radius-s:10px;
+  --radius-m:18px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;
+  color:var(--ink);
+  background:var(--paper);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+img{display:block;max-width:100%;height:auto;}
+a{color:inherit;}
+
+.wk-wrap{max-width:1180px;margin:0 auto;padding:0 20px;}
+
+/* —— 顶部横幅 —— */
+.dispatch-bar{
+  background:var(--steel);
+  color:#cfd6e0;
+  font-size:13px;
+  letter-spacing:.3px;
+}
+.dispatch-bar .wk-wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  min-height:40px;flex-wrap:wrap;gap:8px 16px;
+}
+.dispatch-bar strong{color:#fff;font-weight:600;}
+
+/* —— 头部 —— */
+.head-frame{
+  background:#fff;
+  border-bottom:1px solid var(--line);
+}
+.head-frame .wk-wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  min-height:72px;gap:14px;flex-wrap:wrap;
+}
+.brand-lockup{display:flex;align-items:center;gap:12px;}
+.brand-lockup img{width:44px;height:44px;object-fit:contain;border-radius:8px;}
+.brand-text b{display:block;font-size:18px;letter-spacing:.5px;}
+.brand-text span{display:block;font-size:12px;color:#7b8494;letter-spacing:1.5px;}
+.head-call{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--amber);color:#fff;text-decoration:none;
+  padding:10px 20px;border-radius:40px;font-weight:700;font-size:17px;
+  box-shadow:0 4px 14px rgba(224,123,26,.32);
+  transition:background .2s;
+}
+.head-call:hover{background:var(--amber-deep);}
+.head-call small{font-size:11px;font-weight:400;opacity:.85;}
+
+/* —— 轮播 —— */
+.rotor-deck{
+  position:relative;overflow:hidden;background:#0e131b;
+}
+.rotor-track{display:flex;transition:transform .55s cubic-bezier(.22,.61,.36,1);}
+.rotor-slide{min-width:100%;position:relative;}
+.rotor-slide img{width:100%;height:clamp(200px,38vw,420px);object-fit:cover;opacity:.88;}
+.rotor-caption{
+  position:absolute;left:0;right:0;bottom:0;
+  padding:26px 24px 22px;
+  background:linear-gradient(transparent,rgba(8,12,18,.82));
+  color:#f3f0ea;
+}
+.rotor-caption h2{font-size:clamp(17px,2.6vw,26px);font-weight:700;letter-spacing:.4px;}
+.rotor-caption p{font-size:clamp(12px,1.5vw,14px);opacity:.82;margin-top:4px;}
+.rotor-dots{
+  position:absolute;bottom:12px;right:22px;display:flex;gap:8px;z-index:3;
+}
+.rotor-dots button{
+  width:26px;height:4px;border:none;border-radius:2px;
+  background:rgba(255,255,255,.35);cursor:pointer;padding:0;
+}
+.rotor-dots button.on{background:var(--amber);}
+
+/* —— 本地覆盖条 —— */
+.cover-ribbon{
+  background:var(--steel);color:#e6e9ef;
+  padding:14px 0;font-size:14px;
+}
+.cover-ribbon .wk-wrap{
+  display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;
+}
+.cover-ribbon b{color:#fff;font-weight:600;margin-right:4px;}
+.cover-ribbon span{color:#aab4c3;font-size:13px;}
+
+/* —— 主内容区 —— */
+.page-body{padding:52px 0 30px;}
+.page-body .wk-wrap{
+  display:grid;grid-template-columns:minmax(0,1fr) 318px;gap:44px;
+}
+@media(max-width:900px){.page-body .wk-wrap{grid-template-columns:1fr;}}
+
+/* 正文 */
+.article-stream h1{
+  font-size:clamp(21px,3vw,29px);
+  line-height:1.35;letter-spacing:-.2px;
+  margin-bottom:14px;
+}
+.article-stream h1 em{
+  font-style:normal;
+  background:linear-gradient(180deg,transparent 62%,rgba(224,123,26,.28) 62%);
+}
+.lede{
+  font-size:15px;color:#4a5361;
+  border-left:4px solid var(--amber);
+  padding:2px 0 2px 16px;
+  margin:18px 0 30px;
+}
+
+.zone-beat{margin-bottom:34px;}
+.zone-beat h2{
+  font-size:18px;font-weight:700;
+  padding-bottom:8px;margin-bottom:12px;
+  border-bottom:2px solid var(--line);
+  letter-spacing:.3px;
+}
+.zone-beat p{font-size:15px;color:#37404e;margin-bottom:10px;}
+.zone-beat strong{color:#151b24;}
+
+/* 本地地名高亮——不过度，只用于关键实体 */
+.place{
+  font-weight:600;color:#0f1620;
+  background:linear-gradient(transparent 70%,rgba(224,123,26,.18) 70%);
+}
+
+/* 服务卡网格 */
+.svc-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:14px;margin:20px 0 6px;
+}
+.svc-tile{
+  background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-s);
+  padding:16px 15px;
+  transition:border-color .2s, transform .2s;
+}
+.svc-tile:hover{border-color:rgba(224,123,26,.55);transform:translateY(-2px);}
+.svc-tile h3{font-size:15px;margin-bottom:4px;}
+.svc-tile p{font-size:13px;color:#68707e;line-height:1.6;margin:0;}
+
+/* 高速专段 */
+.hw-block{
+  background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:24px 24px 18px;margin:26px 0 30px;
+}
+.hw-block h2{font-size:17px;margin-bottom:10px;}
+.hw-block ul{list-style:none;padding:0;display:grid;gap:8px;}
+.hw-block li{
+  font-size:14px;color:#3d4654;
+  padding-left:18px;position:relative;
+}
+.hw-block li::before{
+  content:"";position:absolute;left:0;top:9px;
+  width:7px;height:7px;border-radius:50%;
+  background:var(--amber);opacity:.75;
+}
+
+/* 流程带 */
+.flow-band{
+  counter-reset:step;
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+  gap:12px;margin:22px 0 6px;
+}
+.flow-band li{
+  counter-increment:step;
+  list-style:none;background:#eef0f3;
+  border-radius:var(--radius-s);
+  padding:16px 14px 14px;font-size:13px;color:#3f4856;
+  position:relative;
+}
+.flow-band li::before{
+  content:counter(step,decimal-leading-zero);
+  display:block;font-size:22px;font-weight:800;
+  color:var(--amber);letter-spacing:-1px;margin-bottom:4px;
+  opacity:.9;
+}
+
+/* —— 侧栏 —— */
+.aside-stack{display:flex;flex-direction:column;gap:20px;}
+.aside-card{
+  background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius-m);padding:20px 18px;
+}
+.aside-card h3{font-size:15px;margin-bottom:10px;letter-spacing:.3px;}
+.aside-card p,.aside-card li{font-size:13.5px;color:#4a5361;}
+.aside-card ul{list-style:none;padding:0;display:grid;gap:7px;}
+.aside-card li{padding-left:14px;position:relative;}
+.aside-card li::before{content:"·";position:absolute;left:2px;font-weight:800;color:var(--amber);}
+.aside-phone{
+  display:block;text-align:center;
+  background:var(--steel);color:#fff;text-decoration:none;
+  border-radius:var(--radius-s);padding:14px 10px;
+  font-size:22px;font-weight:800;letter-spacing:1.2px;
+  margin:6px 0 8px;
+}
+.aside-phone small{display:block;font-size:11px;font-weight:400;letter-spacing:0;opacity:.65;margin-top:2px;}
+
+.aside-imgs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;}
+.aside-imgs img{
+  width:100%;aspect-ratio:4/3;object-fit:cover;
+  border-radius:8px;
+}
+
+/* 底部 */
+.foot-slab{
+  margin-top:40px;background:#121821;color:#9aa6b5;
+  padding:32px 0 110px;
+  font-size:12.5px;
+}
+.foot-slab .wk-wrap{display:grid;gap:10px;}
+.foot-slab b{color:#e3e8ef;}
+
+/* —— 悬浮呼叫：移动端&桌面端同时可见 —— */
+.call-float{
+  position:fixed;z-index:9999;
+  right:20px;bottom:22px;
+  display:inline-flex;align-items:center;gap:10px;
+  background:var(--amber);color:#fff;text-decoration:none;
+  padding:13px 22px 13px 18px;
+  border-radius:60px;
+  font-weight:800;font-size:17px;letter-spacing:.4px;
+  box-shadow:0 8px 26px rgba(224,123,26,.45);
+  transition:background .2s, transform .15s;
+}
+.call-float::before{
+  content:"";
+  width:12px;height:12px;border-radius:50%;
+  background:#fff;
+  box-shadow:0 0 0 4px rgba(255,255,255,.28);
+  flex:0 0 auto;
+}
+.call-float:hover{background:var(--amber-deep);transform:translateY(-1px);}
+@media(max-width:560px){
+  .call-float{
+    left:14px;right:14px;bottom:14px;
+    justify-content:center;
+    font-size:18px;padding:15px 12px;
+  }
+}
+
+@media(max-width:640px){
+  .page-body{padding-top:34px;}
+  .head-frame .wk-wrap{min-height:60px;}
+  .brand-text span{display:none;}
+  .rotor-caption{padding:18px 16px 16px;}
+  .cover-ribbon{font-size:12.5px;}
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部调度条 -->
+<div class="dispatch-bar">
+  <div class="wk-wrap">
+    <span><strong>岳阳全境24小时调度</strong> · 城区 / 县城 / 高速同步响应</span>
+    <span>紧急呼叫 <strong>400-808-2010</strong></span>
+  </div>
+</div>
+
+<!-- 头部 -->
+<header class="head-frame">
+  <div class="wk-wrap">
+    <div class="brand-lockup">
+      <img src="https://liaocheng.shdaoljy.com/uploads/image/20221122/3e4f19561e78ff48d41b271d4bdaca90.png"
+           alt="悟空道路救援品牌标识——岳阳道路救援服务商" width="44" height="44">
+      <div class="brand-text">
+        <b>悟空道路救援</b>
+        <span>岳阳本地 · 全车型 · 全天候</span>
+      </div>
+    </div>
+    <a class="head-call" href="tel:4008082010">
+      400-808-2010 <small>点击呼叫</small>
+    </a>
+  </div>
+</header>
+
+<!-- 轮播：文字说明全部静态存在于 HTML，JS 仅控制位移 -->
+<section class="rotor-deck" id="rotorDeck" aria-label="岳阳道路救援服务场景展示">
+  <div class="rotor-track" id="rotorTrack">
+    <div class="rotor-slide">
+      <img src="https://liaocheng.shdaoljy.com/uploads/image/20221203/6ed381efb33f2e93372e3dd89ed88fe5.jpg"
+           alt="岳阳道路救援拖车在城区及高速路段作业实拍——悟空道路救援">
+      <div class="rotor-caption">
+        <h2>岳阳城区与高速同步出车</h2>
+        <p>覆盖岳阳楼区、云溪区、君山区，G0421许广高速岳阳段拖车就近调度</p>
+      </div>
+    </div>
+    <div class="rotor-slide">
+      <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091032.png"
+           alt="岳阳汽车搭电救援现场——12V/24V兼容应急启动电源">
+      <div class="rotor-caption">
+        <h2>搭电不着火，先判断再操作</h2>
+        <p>岳阳县、华容县、湘阴县小区与路边场景，静音电源减少扰民</p>
+      </div>
+    </div>
+    <div class="rotor-slide">
+      <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091011.png"
+           alt="岳阳流动补胎换胎救援——高速与城区均可现场处理">
+      <div class="rotor-caption">
+        <h2>补胎换胎不挑路段</h2>
+        <p>汨罗市、临湘市及岳阳境内高速，风炮补胎、备胎更换现场完成</p>
+      </div>
+    </div>
+  </div>
+  <div class="rotor-dots" id="rotorDots" role="tablist" aria-label="轮播切换">
+    <button type="button" class="on" aria-label="切换到第1张"></button>
+    <button type="button" aria-label="切换到第2张"></button>
+    <button type="button" aria-label="切换到第3张"></button>
+  </div>
+</section>
+
+<!-- 覆盖条：静态区县名 -->
+<div class="cover-ribbon">
+  <div class="wk-wrap">
+    <b>岳阳救援覆盖范围：</b>
+    <span>岳阳楼区 · 云溪区 · 君山区 · 岳阳县 · 华容县 · 湘阴县 · 平江县 · 汨罗市 · 临湘市 · 屈原管理区 · 岳阳经开区 · 南湖新区</span>
+  </div>
+</div>
+
+<!-- 主体 -->
+<main class="page-body">
+  <div class="wk-wrap">
+
+    <div class="article-stream">
+
+      <h1>岳阳道路救援：把<em>区县、高速和本地路况</em>放在同一张调度表上</h1>
+
+      <p class="lede">
+        岳阳不是一个“一个电话就能从任何一个点快速到达任何另一个点”的城市。岳阳楼区到平江县、君山区到临湘市、G0421许广高速岳阳段到G56杭瑞高速洞庭湖大桥方向，距离和通行条件差异很大。悟空道路救援在岳阳做的是按区县和高速路段分别调度，而不是用一句“岳阳全覆盖”概括所有场景。电话 <strong>400-808-2010</strong>，24小时有人接。
+      </p>
+
+      <!-- 1. 岳阳地理与调度逻辑 -->
+      <div class="zone-beat">
+        <h2>岳阳的救援半径，先看你在哪个区县或哪条高速</h2>
+        <p>
+          岳阳市下辖<span class="place">岳阳楼区、云溪区、君山区</span>三个城区，<span class="place">岳阳县、华容县、湘阴县、平江县</span>四个县，代管<span class="place">汨罗市、临湘市</span>两个县级市，另有屈原管理区、岳阳经济技术开发区、南湖新区等功能区[reference:1]。城区路网密度高，救援车辆到达快；县域和高速路段则需要按最近出口或服务区反向匹配。悟空道路救援的调度习惯是：<strong>先确认车主所在的具体乡镇、街道或高速桩号，再决定从哪个点位出车</strong>。
+        </p>
+        <p>
+          岳阳境内高速公路包括 <span class="place">G0421许广高速（原岳临高速湖南段）</span>、<span class="place">G56杭瑞高速大岳段</span>、<span class="place">G4京港澳高速岳阳段</span>，以及S71华常高速、S20平洞高速等路段[reference:2]。高速救援和城区救援的操作规范不同：高速作业需要先布设安全防护区，再实施拖车或现场处置；新能源车辆必须使用平板拖车，避免驱动轮着地拖行造成电机损伤[reference:3]。这些细节会体现在派工单里，而不是到了现场再临时判断。
+        </p>
+      </div>
+
+      <!-- 2. 服务矩阵 -->
+      <div class="zone-beat">
+        <h2>岳阳汽车救援服务：每一项都对应具体的岳阳场景</h2>
+
+        <div class="svc-grid">
+          <div class="svc-tile">
+            <h3>岳阳汽车拖车</h3>
+            <p>城区事故车、故障车拖移至车主指定修车点；县域长途拖运按实际公里数预沟通。</p>
+          </div>
+          <div class="svc-tile">
+            <h3>岳阳汽车搭电</h3>
+            <p>12V/24V兼容，小区、地下车库、路边均可操作；凌晨时段使用静音电源。</p>
+          </div>
+          <div class="svc-tile">
+            <h3>岳阳汽车补胎换胎</h3>
+            <p>流动补胎、风炮补胎、备胎更换；高速路段在安全防护布设后作业。</p>
+          </div>
+          <div class="svc-tile">
+            <h3>岳阳汽车脱困</h3>
+            <p>陷泥、陷沙、雨雪打滑、路沟托底；乡村砂石路和湖区软基路段经验较多。</p>
+          </div>
+          <div class="svc-tile">
+            <h3>岳阳汽车开锁</h3>
+            <p>钥匙误锁车内、智能钥匙失灵；正规备案渠道对接，无损操作优先。</p>
+          </div>
+          <div class="svc-tile">
+            <h3>岳阳高速道路救援</h3>
+            <p>G0421许广、G56杭瑞、G4京港澳岳阳段；拖车、补胎、送油按高速规程执行。</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. 高速专段 -->
+      <div class="hw-block">
+        <h2>岳阳高速救援：不同高速路段，出车点位不同</h2>
+        <ul>
+          <li><strong>G0421许广高速岳阳段：</strong>岳阳南、新墙河、黄沙街、汨罗北、屈原管理区等收费站周边是高频点位，拖车可从最近出口反向对接[reference:4]。</li>
+          <li><strong>G56杭瑞高速大岳段：</strong>临湘大界至君山方向，洞庭湖大桥通车后东西向通行条件已改善；救援需区分临湘侧与君山侧出车[reference:5]。</li>
+          <li><strong>G4京港澳高速岳阳段：</strong>南北向车流密集，故障车优先拖离主线，避免二次事故。</li>
+          <li><strong>高速补胎换胎：</strong>必须先在车辆后方足够距离布设警示，再实施换胎；夜间增加反光标识和照明。</li>
+          <li><strong>高速送油：</strong>燃油按桶装派送，不直接在路边大量灌装；送油前需确认车辆是否允许该操作。</li>
+        </ul>
+      </div>
+
+      <!-- 4. 操作流程：建立专业信号 -->
+      <div class="zone-beat">
+        <h2>从呼叫到完成，岳阳本地救援的每一步</h2>
+        <ol class="flow-band">
+          <li>确认位置：街道、乡镇、高速桩号或最近收费站，越具体调度越准。</li>
+          <li>判断场景：能否移动、是否有漏油/冒烟/人员不适，决定是否需要升级处置。</li>
+          <li>匹配车型与设备：新能源车明确要求平板拖车；地库注意限高。</li>
+          <li>出车与到场：岳阳城区与县域按实际路况预估时间，高速按最近出口匹配。</li>
+          <li>作业与确认：费用和操作方式在作业前沟通，完成后车主确认。</li>
+        </ol>
+      </div>
+
+      <!-- 5. 合规与信任 -->
+      <div class="zone-beat">
+        <h2>关于岳阳高速救援选择权，一个需要说清楚的规定</h2>
+        <p>
+          2026年9月1日起施行的修订后《湖南省高速公路条例》明确：<strong>任何单位和个人不得强制指定车辆救援机构或者车辆维修场所，也不能妨碍车主自行委托的救援机构进场服务</strong>[reference:6]。这意味着在岳阳高速遇到故障时，车主有权选择自己联系的救援方。悟空道路救援在岳阳高速作业时，按现场安全规程配合，不介入车主的自主选择。把这条规则说在前面，比事后解释更有用。
+        </p>
+      </div>
+
+    </div>
+
+    <!-- 侧栏 -->
+    <aside class="aside-stack">
+
+      <div class="aside-card">
+        <h3>岳阳24小时救援直线</h3>
+        <a class="aside-phone" href="tel:4008082010">
+          400-808-2010
+          <small>岳阳全境 · 城区/县城/高速</small>
+        </a>
+        <p style="font-size:12.5px;color:#7b8494;text-align:center;margin:0;">
+          先报位置，再报车型和故障现象，调度会更快
+        </p>
+      </div>
+
+      <div class="aside-card">
+        <h3>岳阳高频救援点位</h3>
+        <ul>
+          <li>岳阳楼区 · 东风湖路 / 岳阳大道沿线</li>
+          <li>云溪区 · 云溪街道 / 城南新区</li>
+          <li>君山区 · 君山大道 / 旅游路周边</li>
+          <li>岳阳县 · 新开镇 / 107国道沿线</li>
+          <li>汨罗市 · 汨罗北收费站周边</li>
+          <li>临湘市 · 大界至金屋段沿线</li>
+          <li>G0421许广高速 · 岳阳南至汨罗北</li>
+        </ul>
+      </div>
+
+      <div class="aside-card">
+        <h3>岳阳道路救援实拍</h3>
+        <div class="aside-imgs">
+          <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091013.png"
+               alt="岳阳汽车拖车作业现场——平板拖车装载故障车辆" loading="lazy">
+          <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79090980.png"
+               alt="岳阳高速道路救援安全防护布设现场" loading="lazy">
+          <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79091012.png"
+               alt="岳阳汽车脱困救援——车辆陷入泥泞路段使用绞盘牵引" loading="lazy">
+          <img src="https://img4.pcauto.com.cn/pcauto/images/auto_hj/20261028/79090981.png"
+               alt="岳阳流动补胎换胎服务现场作业" loading="lazy">
+        </div>
+      </div>
+
+      <div class="aside-card">
+        <h3>岳阳高速救援提醒</h3>
+        <p style="font-size:13px;color:#4a5361;">
+          高速遇故障先牢记：<strong>车靠边、人撤离、即报警</strong>。联系救援时同时告知高速名称、行驶方向和最近看到的公里牌/收费站，救援车辆才能最快匹配出口。
+        </p>
+      </div>
+
+    </aside>
+
+  </div>
+</main>
+
+<!-- 底部 -->
+<footer class="foot-slab">
+  <div class="wk-wrap">
+    <div><b>悟空道路救援 · 岳阳</b></div>
+    <div>服务范围：岳阳楼区、云溪区、君山区、岳阳县、华容县、湘阴县、平江县、汨罗市、临湘市、屈原管理区、岳阳经开区、南湖新区及岳阳境内高速公路。</div>
+    <div>24小时救援电话：<b>400-808-2010</b>　|　高速故障请同步遵循“车靠边、人撤离、即报警”。</div>
+  </div>
+</footer>
+
+<!-- 悬浮呼叫：移动端与桌面端同时可见 -->
+<a class="call-float" href="tel:4008082010" aria-label="拨打岳阳道路救援电话 400-808-2010">
+  400-808-2010
+</a>
+
+<script>
+(function(){
+  var deck = document.getElementById('rotorDeck');
+  if(!deck) return;
+  var track = document.getElementById('rotorTrack');
+  var dots  = document.getElementById('rotorDots').querySelectorAll('button');
+  var total = track.children.length;
+  var idx = 0, timer = null;
+
+  function go(n){
+    idx = (n + total) % total;
+    track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+    for(var i=0;i<dots.length;i++){
+      dots[i].className = i === idx ? 'on' : '';
+    }
+  }
+
+  function start(){
+    stop();
+    timer = setInterval(function(){ go(idx + 1); }, 5200);
+  }
+  function stop(){
+    if(timer){ clearInterval(timer); timer = null; }
+  }
+
+  for(var d=0;d<dots.length;d++){
+    (function(pos){
+      dots[pos].addEventListener('click', function(){ go(pos); start(); });
+    })(d);
+  }
+
+  deck.addEventListener('mouseenter', stop);
+  deck.addEventListener('mouseleave', start);
+  deck.addEventListener('touchstart', stop, {passive:true});
+  deck.addEventListener('touchend', start, {passive:true});
+
+  start();
+})();
+</script>
+
+</body>
+</html>
